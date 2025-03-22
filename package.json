@@ -9,7 +9,8 @@
     "getProductsByMinPrice": "node src/scripts/getProductsByMinPrice.js",
     "getTotalPrice": "node src/scripts/getTotalPrice.js",
     "modifyProduct": "node src/scripts/modifyProduct.js",
-    "categories": "node src/scripts/getProductsCategories.js"
+    "categories": "node src/scripts/getProductsCategories.js",
+    "ccategoriesToNames_Fedir": "node src/scripts/categoriesToNames.js"
   },
   "repository": {
     "type": "git",
