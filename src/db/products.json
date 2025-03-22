@@ -1,30 +1,5 @@
 [
   {
-    "name": "Incredible Steel Keyboard",
-    "price": "32.29",
-    "category": "Garden"
-  },
-  {
-    "name": "Bespoke Concrete Sausages",
-    "price": "432.99",
-    "category": "Home"
-  },
-  {
-    "name": "Sleek Marble Soap",
-    "price": "555.69",
-    "category": "Tools"
-  },
-  {
-    "name": "Handcrafted Plastic Pizza",
-    "price": "733.99",
-    "category": "Outdoors"
-  },
-  {
-    "name": "Practical Wooden Towels",
-    "price": "323.75",
-    "category": "Music"
-  },
-  {
     "name": "Modern Bamboo Fish",
     "price": "722.25",
     "category": "Garden",
@@ -143,5 +118,125 @@
     "price": "37.19",
     "category": "Baby",
     "description": "The sleek and tall Gloves comes with maroon LED lighting for smart functionality"
+  },
+  {
+    "name": "Oriental Metal Chair",
+    "price": "914.75",
+    "category": "Movies",
+    "description": "Modern Bacon designed with Concrete for hollow performance"
+  },
+  {
+    "name": "Gorgeous Concrete Gloves",
+    "price": "416.97",
+    "category": "Sports",
+    "description": "Nitzsche, Donnelly and Mitchell's most advanced Towels technology increases mammoth capabilities"
+  },
+  {
+    "name": "Bespoke Plastic Cheese",
+    "price": "676.05",
+    "category": "Shoes",
+    "description": "Small Cheese designed with Silk for lined performance"
+  },
+  {
+    "name": "Luxurious Silk Cheese",
+    "price": "7.75",
+    "category": "Games",
+    "description": "The sleek and glass Car comes with yellow LED lighting for smart functionality"
+  },
+  {
+    "name": "Luxurious Aluminum Chicken",
+    "price": "969.69",
+    "category": "Baby",
+    "description": "Experience the green brilliance of our Pizza, perfect for scaly environments"
+  },
+  {
+    "name": "Bespoke Bamboo Computer",
+    "price": "798.79",
+    "category": "Kids",
+    "description": "The Malinda Tuna is the latest in a series of stark products from Spinka LLC"
+  },
+  {
+    "name": "Handcrafted Granite Gloves",
+    "price": "848.45",
+    "category": "Clothing",
+    "description": "Discover the bear-like agility of our Chair, perfect for superb users"
+  },
+  {
+    "name": "Practical Steel Cheese",
+    "price": "465.59",
+    "category": "Automotive",
+    "description": "New Mouse model with 10 GB RAM, 763 GB storage, and glittering features"
+  },
+  {
+    "name": "Bespoke Ceramic Towels",
+    "price": "110.19",
+    "category": "Beauty",
+    "description": "Innovative Salad featuring subdued technology and Wooden construction"
+  },
+  {
+    "name": "Unbranded Aluminum Pants",
+    "price": "807.44",
+    "category": "Shoes",
+    "description": "Stylish Shoes designed to make you stand out with grizzled looks"
+  },
+  {
+    "name": "Oriental Cotton Shoes",
+    "price": "671.57",
+    "category": "Industrial",
+    "description": "The tan Pizza combines Jamaica aesthetics with Titanium-based durability"
+  },
+  {
+    "name": "Soft Concrete Sausages",
+    "price": "323.05",
+    "category": "Kids",
+    "description": "Discover the untried new Mouse with an exciting mix of Plastic ingredients"
+  },
+  {
+    "name": "Generic Marble Fish",
+    "price": "710.95",
+    "category": "Electronics",
+    "description": "The salmon Salad combines Liberia aesthetics with Beryllium-based durability"
+  },
+  {
+    "name": "Refined Rubber Table",
+    "price": "748.99",
+    "category": "Home",
+    "description": "The sleek and excited Pants comes with magenta LED lighting for smart functionality"
+  },
+  {
+    "name": "Rustic Silk Shoes",
+    "price": "860.07",
+    "category": "Electronics",
+    "description": "The green Chips combines Sweden aesthetics with Niobium-based durability"
+  },
+  {
+    "name": "Fresh Cotton Sausages",
+    "price": "503.39",
+    "category": "Garden",
+    "description": "The Realigned methodical circuit Chicken offers reliable performance and crafty design"
+  },
+  {
+    "name": "Gorgeous Concrete Bacon",
+    "price": "912.99",
+    "category": "Clothing",
+    "description": "Our dog-friendly Shirt ensures babyish comfort for your pets"
+  },
+  {
+    "name": "Handmade Bamboo Car",
+    "price": "64.49",
+    "category": "Garden",
+    "description": "Stylish Ball designed to make you stand out with massive looks"
+  },
+  {
+    "name": "Refined Ceramic Car",
+    "price": "15.69",
+    "category": "Books",
+    "description": "Discover the internal new Gloves with an exciting mix of Granite ingredients"
+  },
+  {
+    "name": "Tasty Bamboo Mouse",
+    "price": "334.40",
+    "category": "Automotive",
+    "description": "The teal Car combines Haiti aesthetics with Iridium-based durability"
   }
 ]
