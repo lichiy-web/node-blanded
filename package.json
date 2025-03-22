@@ -10,6 +10,7 @@
     "getTotalPrice": "node src/scripts/getTotalPrice.js",
     "modifyProduct": "node src/scripts/modifyProduct.js",
     "categories": "node src/scripts/getProductsCategories.js",
+    "ccategoriesToNames_Fedir": "node src/scripts/categoriesToNames.js",
     "product-groups-L": "node src/scripts/getProductGroupsLykhosherstov.js"
   },
   "repository": {
