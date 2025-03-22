@@ -1,0 +1,25 @@
+{
+  "name": "blanded",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "node src/scripts/generateProducts.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lichiy-web/node-blanded.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/lichiy-web/node-blanded/issues"
+  },
+  "homepage": "https://github.com/lichiy-web/node-blanded#readme",
+  "devDependencies": {
+    "@faker-js/faker": "^9.6.0"
+  }
+}
