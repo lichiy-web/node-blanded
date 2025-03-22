@@ -1,10 +1,10 @@
-import { PATH_DB } from "../constants/pathDb.js";
-import fs from "node:fs/promises";
-import { createFakeProduct } from "../utils/createFakeProduct.js";
+import { PATH_DB } from '../constants/pathDb.js';
+import fs from 'node:fs/promises';
+import { createFakeProduct } from '../utils/createFakeProduct.js';
 
 async function generateProducts(number) {
   try {
-    const productListStr = await fs.readFile(PATH_DB, "utf-8");
+    const productListStr = await fs.readFile(PATH_DB, 'utf-8');
     const productList = JSON.parse(productListStr);
     const newProductList = Array(number).fill(0).map(createFakeProduct);
     const mergedProductList = [...productList, ...newProductList];
@@ -14,4 +14,4 @@ async function generateProducts(number) {
   }
 }
 
-generateProducts(20);
+generateProducts(1000);

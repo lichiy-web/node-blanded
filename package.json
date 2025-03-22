@@ -9,7 +9,8 @@
     "getProductsByMinPrice": "node src/scripts/getProductsByMinPrice.js",
     "getTotalPrice": "node src/scripts/getTotalPrice.js",
     "modifyProduct": "node src/scripts/modifyProduct.js",
-    "categories": "node src/scripts/getProductsCategories.js"
+    "categories": "node src/scripts/getProductsCategories.js",
+    "product-groups-L": "node src/scripts/getProductGroupsLykhosherstov.js"
   },
   "repository": {
     "type": "git",
