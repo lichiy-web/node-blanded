@@ -10,7 +10,9 @@ const getProductGroups = async () => {
     const productGroups1 = products.reduce(
       (groups, { category, name }) => ({
         ...groups,
-        [category]: groups[category] ? [...groups[category], name] : [name],
+        [category]: groups[category]
+          ? !groups[category].includes(name) && [...groups[category], name]
+          : [name],
       }),
       {}
     );
@@ -18,8 +20,9 @@ const getProductGroups = async () => {
 
     const dateMark2 = new Date();
     const productGroups2 = products.reduce((groups, { category, name }) => {
-      groups[category]
-        ? groups[category].push(name)
+      const group = groups[category];
+      group
+        ? !group.includes(name) && group.push(name)
         : (groups[category] = [name]);
       return groups;
     }, {});
