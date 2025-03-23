@@ -6,7 +6,6 @@ const categoriesToNames = async () => {
     const productData = await fs.readFile(PATH_DB, 'utf-8');
     const products = JSON.parse(productData);
 
-    const dateMark1 = new Date();
     const categoriesView = products.reduce((acc, product) => {
       const { category, name } = product;
 
@@ -18,7 +17,6 @@ const categoriesToNames = async () => {
 
       return acc;
     }, {});
-    const categoriesViewDuration = new Date() - dateMark1;
 
     const result = Object.fromEntries(
       Object.entries(categoriesView).map(([category, names]) => [
@@ -28,7 +26,6 @@ const categoriesToNames = async () => {
     );
 
     console.log(result);
-    console.log('categoriesViewDuration = ', categoriesViewDuration);
     return result;
   } catch (error) {
     console.error(error);
