@@ -28,4 +28,4 @@ export const sessionSchema = new Schema(
   },
 );
 
-export const sessionCollection = model('session', sessionSchema);
+export const SessionCollection = model('session', sessionSchema);
