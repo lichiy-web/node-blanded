@@ -18,4 +18,4 @@ export const userSchema = new Schema(
   { versionKey: false },
 );
 
-export const userCollection = model('user', userSchema);
+export const UserCollection = model('user', userSchema);
