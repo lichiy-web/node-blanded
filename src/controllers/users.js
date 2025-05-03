@@ -2,10 +2,11 @@ import createHttpError from 'http-errors';
 import {
   findUserByEmail,
   createUser,
-  createActiveSession,
+  updateUserWithToken,
+  clearToken,
 } from '../services/users.js';
 import bcrypt from 'bcrypt';
-import { setupCookies } from '../utils/setupCookies.js';
+import { UserCollection } from '../db/models/User.js';
 
 export const userController = async (req, res) => {
   const user = await findUserByEmail(req.body.email);
@@ -14,12 +15,11 @@ export const userController = async (req, res) => {
   }
   const newUser = await createUser(req.body);
   res.status(201).json({
-    status: 201,
-    message: 'Successfully registered a user!',
-    data: {
+    user: {
       name: newUser.name,
       email: newUser.email,
     },
+    token: newUser.token,
   });
 };
 
@@ -33,11 +33,19 @@ export const loginUserController = async (req, res) => {
   );
   if (!areEqualPasswords)
     throw createHttpError(401, 'Unathorized', { details: 'Wrong credentials' });
-  const session = await createActiveSession(user._id);
-  setupCookies(res, session);
+  const updatedUser = await updateUserWithToken(user._id);
+
   res.status(200).json({
-    status: 200,
-    message: 'Successfully logged in an user!',
-    data: { accesToken: session.accessToken },
+    user: {
+      name: updatedUser.name,
+      email: updatedUser.email,
+    },
+    token: updatedUser.token,
   });
+};
+
+export const logoutUserController = async (req, res) => {
+  await clearToken(req.user._id);
+
+  res.status(204).end();
 };
